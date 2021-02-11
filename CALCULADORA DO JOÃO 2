@@ -1,0 +1,17 @@
+#CALCULADORA DO JOÃO 2
+
+# Entrada dos números
+primeiro_numero = int (input ('Digite o primeiro número:'))
+segundo_numero = int (input ('Digite o segundo número:'))
+
+#Operações Matemáticas
+soma = primeiro_numero + segundo_numero
+subtracao = primeiro_numero - segundo_numero
+multiplicacao = primeiro_numero * segundo_numero
+divisao = primeiro_numero / segundo_numero
+
+# Saídas dos cálculos
+print(f'A soma entre {primeiro_numero} e {segundo_numero} é {soma}!')
+print(f'A subtracao entre {primeiro_numero} e {segundo_numero} é {subtracao}!')
+print(f'A multiplicacao entre {primeiro_numero} e {segundo_numero} é {multiplicacao}!')
+print(f'A divisao entre {primeiro_numero} e {segundo_numero} é {divisao}!')
